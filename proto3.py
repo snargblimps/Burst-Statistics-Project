@@ -29,7 +29,7 @@ serial = 1
 
 ## MOVING AVERAGE ##
 
-def movingAverage(x,y,N=1000):                                # function calculating and storing moving average 
+def movingAverage(x,y,N=1000):                                #function calculating and storing moving average 
     arrSize = len(x)
     m=np.array(np.zeros(arrSize))
     for i in range(N):
